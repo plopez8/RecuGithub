@@ -1,0 +1,13 @@
+﻿<Window x:Class="Barcos.WPF.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Barcos.WPF"
+        mc:Ignorable="d"
+        Title="MenuWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Partidas Antiguas" Click="LoadGameButton_Click" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,165,0,0"/>
+        <Button Content="Nueva Partida" Click="NewGameButton_Click" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,207,0,0"/>
+    </Grid>
+</Window>
